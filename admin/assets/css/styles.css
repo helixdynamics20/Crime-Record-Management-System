@@ -1,0 +1,110 @@
+#logo {
+  margin-left: 20px;
+  margin-bottom: 45px;
+  /*margin-top: -5px;*/
+  /*margin: 14px;*/
+  /*margin-left: 20px;*/
+  /*margin-top: 20px;*/
+  width: 70px;
+  height: 70px;
+}
+
+#header {
+  height: 100px;
+  background-image: url("../../assets/img/Header/mscs_header.jpg");
+}
+
+#name {
+  width: 100px;
+}
+
+#initials {
+  margin-left: 10px;
+  /*padding-top: 1000px;*/
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#fullname {
+  /*font-size: 18p;*/
+  width: 11em;
+  letter-spacing: 1px;
+  /*display: block;*/
+  line-height: 1.1;
+  padding-left: 15px;
+  line-height: 1.1;
+  display: inline-block;
+}
+
+#news {
+  color: #36619B;
+  /*#36619B;: 25px;*/
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#left {
+  width: 70%;
+  float: left;
+}
+
+#right {
+  width: 30%;
+  float: left;
+}
+
+#official {
+  margin-left: 30px;
+  letter-spacing: none;
+  /*font-size: 20px;*/
+  color: #36619B;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#social {
+  font-size: 40px;
+  letter-spacing: 20px;
+  margin-left: 65px;
+}
+
+#spce {
+  margin-left: 20px;
+}
+
+#info {
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+
+#info {
+  /*align-items: end;*/
+  /*align-self: center;*/
+  padding: 1px;
+  text-align: center;
+  color: white;
+  background-color: #932c2c;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-left: 80px;
+  font-weight: bold;
+  height: 30px;
+  width: 200px;
+}
+
+a:hover {
+  color: #0056b3;
+  /*text-decoration: none;*/
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+

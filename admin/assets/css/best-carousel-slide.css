@@ -1,0 +1,460 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url(../../assets/img/News/1.jpg);
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('../../assets/img/architects-and-worker.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image: url('../../assets/img/young-college-students.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: #048f83!important;
+  border-color: #048f83!important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+#mw {
+  font-family: Frank Ruhl Libre;
+  font-weight: bold;
+  color: #36619B;
+  margin-top: 40px;
+}
+
+#back {
+  background-color: #ebf0f5;
+}
+
+.services {
+  margin-top: 10px;
+  /*background-color: #ebf0f5;*/
+}
+
+#ser {
+  font-family: Frank Ruhl Libre;
+  font-weight: bold;
+  color: #36619B;
+  margin-bottom: 20px;
+}
+
+#cjis {
+  background-image: url(../../assets/img/7.png);
+}
+
+#marg {
+  margin-top: 100px;
+}
+
+#investigate {
+  margin-top: 20px;
+}
+
+#investigate {
+  font-family: Frank Ruhl Libre;
+  font-weight: bold;
+  color: #36619B;
+}
+
+#inleft {
+  background-image: url(../../assets/img/index/ttt.jpg);
+  border-radius: 10px;
+  height: 410px;
+  width: 70%;
+  float: left;
+}
+
+#inright {
+  width: 30%;
+  float: left;
+}
+
+#upper {
+  background-image: url(../../assets/img/index/pc.png);
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 200px;
+  /*width: 300px;*/
+  /*float: left;*/
+  /*padding: 2px;*/
+  /*height: 20%;*/
+}
+
+#lower {
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 200px;
+  background-image: url(../../assets/img/index/cc.jpg);
+  /*height: 50%;*/
+}
+
+#backimage {
+  background-image: url(../../assets/img/65839403-police-crime-scene-rain-background-with-police-lights.jpg);
+}
+
+#wnia {
+  opacity: (0,0,0,0.5);
+  text-align: center;
+  padding: 86px;
+  background-image: ur;
+}
+
+#wenia {
+  background-image: url(../../assets/img/africa-15428_1920.jpg);
+  /*opacity: (0,0,0,0.5);*/
+}
+
+.wback {
+  background-image: url(../../assets/img/africa-15428_1920.jpg);
+  background-size: cover;
+}
+
+#wnia {
+}
+
+.jumbotron {
+  font-family: Frank Ruhl Libre;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  max-width: 800px;
+  margin: auto;
+}
+
+.wcen {
+  text-align: center;
+}
+
+#pback {
+  /*background-color: black;*/
+  background-image: url(../../assets/img/africa-15428_1920.jpg);
+}
+
+#psearch {
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: none;
+  opacity: (255,255,255,0.4);
+}
+
+#psearch {
+  border: 1px solid;
+  padding: 9px;
+  padding-left: 235px;
+  border-radius: 36px;
+  /*background-color: black;*/
+}
+
+#pspn {
+  margin-left: 492px;
+  /*text-align: center;*/
+}
+
+#pbutton {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  /*padding-top: 11px;*/
+  /*padding: 17px;*/
+  border-radius: 50px;
+}
+
+.mwij {
+  text-align: center;
+}
+
+.btn.btn-primary.btcen {
+  margin-left: 25%;
+  /*text-align: center;*/
+  /*align-content: center;*/
+}
+
+#adback {
+  background-image: url(../../assets/img/background-2462431_1920.jpg);
+}
+
+#secback {
+  text-align: center;
+  padding-bottom: 1px;
+  padding-top: 65px;
+  background-image: url(../../assets/img/africa-15428_1920.jpg);
+}
+
+.btn.btn-block {
+  /*font-size: 17px;*/
+}
+
+.btn.btn-block {
+  font-size: 23px;
+}
+
+#cphead {
+  font-family: Frank Ruhl Libre;
+  border-radius: 100px;
+  background-color: #2ab4c9;
+}
+
+#rshead {
+  font-family: Frank Ruhl Libre;
+  border-radius: 100px;
+  background-color: #2ab4c9;
+}
+
+#tithead {
+  font-family: Frank Ruhl Libre;
+  border-radius: 70px 10px 70px 10px;
+  /*border-radius: 100px;*/
+  background-color: #2ab4c9;
+}
+
+.enterprise {
+  height: 800px;
+  background-image: url(../../assets/img/africa-15428_1920.jpg);
+}
+
+.text-center {
+  /*display: inline-block;*/
+  /*padding: 20px;*/
+  /*padding: 10px;*/
+}
+
+select {
+  margin-top: 20px;
+  margin-right: 10px;
+  /*border-radius: 5px;*/
+}
+
+[type=search] {
+  width: 311px;
+  /*margin-top: 15px;*/
+  padding: 16px;
+  margin-left: 15px;
+  /*padding: 0px;*/
+  /*padding-left: 0px;*/
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  /*padding: 20px;*/
+  /*padding-right: 63px;*/
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  margin-left: 15px;
+}
+
+select {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  /*padding-left: -91px;*/
+}
+
+.form-control-sm {
+  /*border: 1px solid white;*/
+  /*width: 176px;*/
+  border: none;
+  padding: 6px;
+  /*padding: -1px;*/
+  /*padding: 21px 20px 0px 19px;*/
+  /*padding-left: 0px;*/
+  /*padding: 3px;*/
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  margin-top: 16px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.form-control {
+  /*padding-left: 116px;*/
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  /*padding: 7px;*/
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  margin-left: -2px;
+  padding: 7px;
+  font-size: 20px;
+}
+
+.btn.btn-primary.cbtn {
+  padding: 6px;
+  border: 2px solid white;
+  /*border: white;*/
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.form-control.ruadmin {
+  /*border-radius: 1px;*/
+}
+
+#ruadmin {
+  border-radius: 5px;
+}
+
+#fcid {
+  border-radius: 10px;
+}
+
+.imgs {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#hmar {
+  font-family: Frank Ruhl Libre;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.btn.btn-primary.cpb {
+  background-color: red;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn.btn-block.apb {
+  font-family: Frank Ruhl Libre;
+}
+
+.iimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.btn.btn-primary.btcen {
+  font-family: Frank Ruhl Libre;
+  font-size: 18px;
+  padding: 8px 15px 8px 15px;
+}
+
+.coor {
+  width: 260px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cc {
+  width: 260px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.terrorism {
+  width: 650px;
+  height: 410px;
+  border-radius: 10px;
+}
+
+.h1, h1 {
+}
+
+#terrh {
+  font-family: Frank Ruhl Libre;
+  /*margin-top: 50%;*/
+  color: white;
+  text-align: center;
+}
+
+#pchead {
+  text-align: center;
+  font-family: Frank Ruhl Libre;
+  /*padding: 115px;*/
+  color: white;
+  /*margin-top: 0px;*/
+}
+
+#cch {
+  text-align: center;
+  font-family: Frank Ruhl Libre;
+  color: white;
+  /*margin-top: 52px;*/
+}
+
+#ncic {
+  text-align: center;
+}
+
+#cirg {
+  text-align: center;
+  background-image: url(../../assets/img/index/cr.png);
+}
+
+#ls {
+  text-align: center;
+  background-image: url(../../assets/img/index/ls.png);
+  border-radius: 10px;
+}
+
+#ncis {
+  text-align: center;
+  background-image: url(../../assets/img/index/cj.jpg);
+}
+
