@@ -1,0 +1,269 @@
+button {
+  border-radius: 0;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #525f7f;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 11px 40px;
+  font-size: .875rem;
+  line-height: 1.35em;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
+.btn:hover {
+  color: #525f7f;
+  text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+}
+
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+  box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled).active:focus, .btn:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  font-size: .75rem;
+  line-height: 1.35;
+  border-radius: .25rem;
+}
+
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.btn-group-vertical > .btn, .btn-group > .btn {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.btn-group-vertical > .btn.active, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:hover, .btn-group > .btn.active, .btn-group > .btn:active, .btn-group > .btn:focus, .btn-group > .btn:hover {
+  z-index: 1;
+}
+
+.btn-group > .btn-group:not(:first-child), .btn-group > .btn:not(:first-child) {
+  margin-left: -1px;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn-group:not(:first-child) > .btn, .btn-group > .btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.border-dark {
+  border-color: #212529!important;
+}
+
+.p-0 {
+  padding: 0!important;
+}
+
+.pr-2, .px-2 {
+  padding-right: .5rem!important;
+}
+
+.pl-2, .px-2 {
+  padding-left: .5rem!important;
+}
+
+.pt-3, .py-3 {
+  padding-top: 1rem!important;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem!important;
+}
+
+.pt-4, .py-4 {
+  padding-top: 1.5rem!important;
+}
+
+.pb-4, .py-4 {
+  padding-bottom: 1.5rem!important;
+}
+
+.m-auto {
+  margin: auto!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.btn, .navbar .navbar-nav > a.btn {
+  border-width: 2px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  margin: 4px 1px;
+  padding: 11px 30px;
+  border-radius: .4285rem;
+  cursor: pointer;
+  background: #344675;
+  background-image: linear-gradient(to bottom left,#344675,#263148,#344675);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #344675;
+  transition: all .15s ease;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn.active, .btn.active:focus, .btn.active:hover, .btn:active, .btn:active:focus, .btn:active:hover, .btn:focus, .btn:hover, .navbar .navbar-nav > a.btn.active, .navbar .navbar-nav > a.btn.active:focus, .navbar .navbar-nav > a.btn.active:hover, .navbar .navbar-nav > a.btn:active, .navbar .navbar-nav > a.btn:active:focus, .navbar .navbar-nav > a.btn:active:hover, .navbar .navbar-nav > a.btn:focus, .navbar .navbar-nav > a.btn:hover {
+  background-color: #263148!important;
+  background-image: linear-gradient(to bottom left,#344675,#263148,#344675)!important;
+  background-image: -moz-linear-gradient(to bottom left,#344675,#263148,#344675)!important;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn:active, .navbar .navbar-nav > a.btn:active {
+  box-shadow: none!important;
+  transform: translateY(1px)!important;
+  transition: all .15s ease;
+}
+
+.btn:not([data-action]):hover, .navbar .navbar-nav > a.btn:not([data-action]):hover {
+  box-shadow: 2px 2px 6px rgba(0,0,0,.4);
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+}
+
+.btn:focus, .btn:hover, .navbar .navbar-nav > a.btn:focus, .navbar .navbar-nav > a.btn:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  outline: 0!important;
+}
+
+.btn.active, .btn:active, .navbar .navbar-nav > a.btn.active, .navbar .navbar-nav > a.btn:active, .open > .btn.dropdown-toggle, .open > .navbar .navbar-nav > a.btn.dropdown-toggle {
+  box-shadow: none;
+  outline: 0!important;
+}
+
+.btn span, .navbar .navbar-nav > a.btn span {
+  position: relative;
+  display: block;
+}
+
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+  box-shadow: 2px 2px 6px rgba(0,0,0,.4);
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  font-size: .875rem;
+  border-radius: .2857rem;
+  padding: 5px 15px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:not(:disabled):not(.disabled).active:focus, .btn:not(:disabled):not(.disabled):active:focus, .show > .btn.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: Poppins,sans-serif;
+}
+
+.btn.btn-facebook {
+  background: #3b5998;
+  background-image: linear-gradient(to bottom left,#3b5998,#1e2e4f,#3b5998);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-repeat: space;
+}
+
+.btn.btn-facebook:active, .btn.btn-facebook:focus, .btn.btn-facebook:hover {
+  background-color: #344e86;
+  background-image: linear-gradient(to bottom left,#3b5998,#1e2e4f,#3b5998)!important;
+  background-image: -moz-linear-gradient(to bottom left,#3b5998,#1e2e4f,#3b5998)!important;
+  color: #fff;
+}
+
+.btn.btn-pinterest {
+  background: #cc2127;
+  background-image: linear-gradient(to bottom left,#cc2127,#741316,#cc2127);
+  color: #fff;
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-repeat: space;
+}
+
+.btn.btn-pinterest:active, .btn.btn-pinterest:focus, .btn.btn-pinterest:hover {
+  background-color: #dd2e34;
+  background-image: linear-gradient(to bottom left,#cc2127,#741316,#cc2127)!important;
+  background-image: -moz-linear-gradient(to bottom left,#cc2127,#741316,#cc2127)!important;
+  color: #fff;
+}
+
