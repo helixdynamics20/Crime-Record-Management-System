@@ -1,3 +1,43 @@
+<?php
+session_start();
+$errore="";
+$errorp="";
+$conn = mysqli_connect('localhost', 'root', '', 'nia');
+
+if(isset($_POST['Submit']))
+{
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    # protect from sql injection   
+
+    $email=mysqli_escape_string($conn,$email);                           
+    $password=mysqli_escape_string($conn,$password);
+                                                                              
+    #cross site scripting attack
+
+    $email=htmlentities($email);                             
+    $password=htmlentities($password); 
+
+    $query = "SELECT * FROM login WHERE email ='$email' && password ='$password'";
+
+    $data = mysqli_query($conn, $query);
+    $total = mysqli_num_rows($data);
+    if($total==1)
+    {
+        //session_register("username");
+        $_SESSION['email']=$email;
+        header("location: controlpanel.php");
+    }
+    else
+    {
+        $errore = 'Please enter a valid email';
+        $errorp= 'Please enter a valid password';
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -25,42 +65,16 @@
 
 <body>
     <div id="header"><img id="logo" src="assets/img/Header/National_Investigation_Agency_India_logo.png"><span class="text-white" id="initials">NIA</span><span class="text-light" id="fullname">NATIONAL INTELLIGENCE AGENCY</span></div>
-    <section class="enterprise">
-        <h1 class="text-center"><select class="form-control-sm"><option value="undefined" selected="">Search By</option><option value="12" selected="">Case ID</option><option value="13">IO ID</option><option value="14">FIR Number</option></select><input type="search" class="form-control-sm" />
-            <button
-                class="btn btn-primary cbtn" type="button">Search</button>
-        </h1>
-        <div class="table-responsive">
-            <table class="table table-striped table-hover table-dark">
-                <thead>
-                    <tr>
-                        <th>Case ID</th>
-                        <th>IO ID</th>
-                        <th>Details</th>
-                        <th>FIR Number</th>
-                    </tr>
-                </thead>
-                <?php
-                $conn = mysqli_connect("localhost", "root", "", "nia");
-                // Check connection
-                if ($conn->connect_error) {
-                    die("Connection failed: " . $conn->connect_error);
-                }
-                $sql = "SELECT * FROM `case`";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                // output data of each row
-                while($row = $result->fetch_assoc()) {
-                    echo "<tr><td>" . $row["case_id"]. "</td><td>" . $row["io_id"] . "</td><td>"
-                    . $row["details"]. "</td><td>" . $row["fir_number"] . "</td></tr>";
-                }
-                echo "</table>";
-                }
-                $conn->close();
-                ?>
-            </table>
-        </div>
-    </section>
+    <div class="login-dark">
+        <form method="post" target="_self" >
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="fas fa-user-tie" style="color: rgb(11,70,140);"></i></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-block" type="submit" name="Submit" style="color: rgb(255,255,255);">Log In</button></div>
+            <a class="forgot" href="#">Forgot your email or password?</a>
+        </form>
+    </div>
     <div class="footer-dark">
         <footer>
             <div class="container">

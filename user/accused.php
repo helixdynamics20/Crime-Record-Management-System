@@ -26,7 +26,7 @@
 <body>
     <div id="header"><img id="logo" src="assets/img/Header/National_Investigation_Agency_India_logo.png"><span class="text-white" id="initials">NIA</span><span class="text-light" id="fullname">NATIONAL INTELLIGENCE AGENCY</span></div>
     <section class="enterprise">
-        <h1 class="text-center"><select class="form-control-sm"><option value="undefined" selected="">Search By</option><option value="12" selected="">Case ID</option><option value="13">IO ID</option><option value="14">FIR Number</option></select><input type="search" class="form-control-sm" />
+        <h1 class="text-center"><select class="form-control-sm"><option value="undefined" selected="">Search By</option><option value="12" selected="">Accussed ID</option><option value="13">Name</option><option value="14">Father Name</option></select><input type="search" class="form-control-sm" />
             <button
                 class="btn btn-primary cbtn" type="button">Search</button>
         </h1>
@@ -34,25 +34,35 @@
             <table class="table table-striped table-hover table-dark">
                 <thead>
                     <tr>
-                        <th>Case ID</th>
-                        <th>IO ID</th>
-                        <th>Details</th>
-                        <th>FIR Number</th>
+                        <th>Accused ID</th>
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>Status</th>
+                        <th>Conatact No.</th>
+                        <th>Street</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Locked at</th>
                     </tr>
                 </thead>
+                <tbody>
                 <?php
                 $conn = mysqli_connect("localhost", "root", "", "nia");
                 // Check connection
                 if ($conn->connect_error) {
                     die("Connection failed: " . $conn->connect_error);
                 }
-                $sql = "SELECT * FROM `case`";
+                $sql = "SELECT * FROM accused";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<tr><td>" . $row["case_id"]. "</td><td>" . $row["io_id"] . "</td><td>"
-                    . $row["details"]. "</td><td>" . $row["fir_number"] . "</td></tr>";
+                    echo "<tr><td>" . $row["accused_id"]. "</td><td>" . $row["name"] . "</td><td>"
+                    . $row["father_name"]. "</td><td>" . $row["gender"] . "</td>  <td>" . $row["age"] . "</td>
+                    <td>" . $row["status"] . "</td> <td>" . $row["contact"] . "</td> <td>" . $row["street"] . "</td>
+                    <td>" . $row["city"] . "</td> <td>" . $row["state"] . "</td> <td>" . $row["locked_at"] . "</td></tr>";
                 }
                 echo "</table>";
                 }
