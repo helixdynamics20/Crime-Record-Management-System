@@ -268,7 +268,7 @@ button, input, optgroup, select, textarea {
 }
 
 #dir {
-  background-color: rgba(10, 139, 168,0.45);
+  background-color: rgba(0,0,0,0.5);
   text-align: center;
   padding: 31px;
   margin-left: 35px;
