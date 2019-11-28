@@ -13,11 +13,11 @@ div.jumbotron.hero-nature {
 }
 
 div.jumbotron.hero-photography {
-  background-image: url('../../assets/img/architects-and-worker.jpg');
+  background-image: url('../../assets/img/high.jpg');
 }
 
 div.jumbotron.hero-technology {
-  background-image: url('../../assets/img/young-college-students.jpg');
+  background-image: url('../../assets/img/News/3.jpg');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -355,6 +355,7 @@ select {
 
 #fcid {
   border-radius: 10px;
+  /*margin-left: -35px;*/
 }
 
 .imgs {
@@ -456,5 +457,22 @@ select {
 #ncis {
   text-align: center;
   background-image: url(../../assets/img/index/cj.jpg);
+}
+
+.fcid {
+  border-radius: 10px;
+  /*margin-right: -1px;*/
+  /*padding: 0px;*/
+  /*margin-left: 9px;*/
+  /*margin: -1px;*/
+}
+
+#le {
+  /*margin-left: -24px;*/
+}
+
+#record_vis {
+  color: white;
+  text-align: center;
 }
 
