@@ -1,7 +1,5 @@
 # Crime-Record-Management-System
 
-# Project is under development 
-
 # DBMS Project
 
 This Project is based on crime record management system named NIA (National Intelligence Agency).
