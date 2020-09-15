@@ -21,7 +21,8 @@ Sample: -->
 
 <h1> Admin Panel </h1>
 
-
+![jbk,knlk](https://user-images.githubusercontent.com/36730768/93245033-49074100-f7a8-11ea-8bed-2498460b424b.jpg)
 
 <h1> User Panel </h1>
 
+![kjjpg](https://user-images.githubusercontent.com/36730768/93245039-4ad10480-f7a8-11ea-8382-418f83a5a5de.jpg)
