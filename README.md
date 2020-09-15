@@ -7,4 +7,5 @@ NIA stored the data of various person like Victim, Petitioner, Accused, Officer 
 
 Sample: -->
 <h1> HOME PAGE </h1>
+
 ![SharedScreenshot](https://user-images.githubusercontent.com/36730768/93243668-2542fb80-f7a6-11ea-8d08-a2c73a409798.jpg)
