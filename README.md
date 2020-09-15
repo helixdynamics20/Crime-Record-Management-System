@@ -17,3 +17,11 @@ Sample: -->
 <h1> Login Page </h1>
 
 ![jbk](https://user-images.githubusercontent.com/36730768/93244803-ee6de500-f7a7-11ea-83f5-e2fd2216a294.jpg)
+
+
+<h1> Admin Panel </h1>
+
+
+
+<h1> User Panel </h1>
+
